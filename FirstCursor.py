@@ -1,5 +1,8 @@
 import tkinter as tk
 import sys
+
+print("eric is super cool")
+
 root = tk.Tk()
 root.title("User Box Example")
 root.geometry("300x200")
