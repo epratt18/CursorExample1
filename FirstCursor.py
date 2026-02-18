@@ -1,7 +1,7 @@
 import tkinter as tk
 import sys
 
-print("eric is super cool")
+print("eric is super duper cool")
 
 root = tk.Tk()
 root.title("User Box Example")
