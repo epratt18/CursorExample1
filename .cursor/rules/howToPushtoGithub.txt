@@ -5,11 +5,16 @@ In a terminal from that folder:
    git init
    git add .
    git commit -m "Initial commit"
+
+/if you wanted to do this all from one terminal command do this below.
    cd "c:\Users\exp03\OneDrive - Acuity Brands, Inc\Documents\Jobs\Cursor"   git init   git add .   git commit -m "Initial commit"
+
 Create a new GitHub repo and connect:
    git remote add origin https://github.com/<your-username>/<new-repo-name>.git
    git branch -M main
    git push -u origin main
+  
+  //again if you wanted to do this all with one line of syntax in the termnal do this below...
    git remote add origin https://github.com/<your-username>/<new-repo-name>.git   git branch -M main   git push -u origin main
 Since Cursor is already open in this folder, it will now recognize it as a git repo, and you can use /pr once you have a branch and commits.
 If you tell me whether you want to clone an existing GitHub repo or publish this Cursor folder as a new repo, I can give you copy‑paste‑ready commands for your exact case
